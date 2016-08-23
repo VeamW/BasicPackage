@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Work</string>
+    <string name="card_string">The adapter is a component that stands between the data model we want to show in our app UI and the UI component that renders this information. In other words, an adapter guides the way the information are shown in the UI. So if we want to display our contacts, we need an adapter for the RecyclerView. This adapter must extend a class called RecyclerView.Adapter passing our class that implements the ViewHolder pattern:
+
+public class MyAdapter extends RecyclerView.Adapter { ..... }
+
+We now have to override two methods so that we can implement our logic: onCreateViewHolder is called whenever a new instance of our ViewHolder class is created, and onBindViewHolder is called when the SO binds the view with the data -- or, in other words, the data is shown in the UI.
+
+In this case, the adapter helps us combine the RecyclerView and CardView. The layout we defined before for the cards will be the row layout of our contact list in the RecyclerView. Before doing it, we have to define our data model that stands at the base of our UI (i.e. what information we want to show). For this purpose, we can define a simple class:</string>
+</resources>
